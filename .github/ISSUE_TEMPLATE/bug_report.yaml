@@ -1,0 +1,48 @@
+name: Bug report
+description: Create a report to help improve Repetitionless
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!IMPORTANT]
+        > Please provide all fields with the required (*) icon
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I am using the latest version as listed [here](https://assetstore.unity.com/packages/slug/345604#releases)
+          required: true
+  - type: input
+    id: unityversion
+    attributes:
+      label: Unity Version
+      placeholder: ex. 2022.3.16f1
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      placeholder: ex. Windows 10 22H2
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Provide a description of what the bug is
+      placeholder: Provide any information and suggested solutions with as much context and detail as possible
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Provide steps to reproduce the bug
+      description: Please provide as much detail as possible
+      placeholder: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true

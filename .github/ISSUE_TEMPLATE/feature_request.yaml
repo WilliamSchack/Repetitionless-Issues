@@ -1,0 +1,48 @@
+name: Feature Request
+description: Suggest a change or new feature
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!IMPORTANT]
+        > Please provide all fields with the required (*) icon
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I am using the latest version as listed [here](https://assetstore.unity.com/packages/slug/345604#releases)
+          required: true
+        - label: I have verified that this feature does not already exist
+          required: true
+  - type: input
+    id: unityversion
+    attributes:
+      label: Unity Version
+      placeholder: ex. 2022.3.16f1
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      placeholder: ex. Windows 10 22H2
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Provide a description of the feature or change
+      description: Describe what the problem is and why a change/new feature should be implemented
+      placeholder:  Provide the problem and why a change/feature should be added
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Propose a solution
+      description: Describe the best way you would solve the problem, or a description of what you would want to happen
+      placeholder: Propose a solution or provide a description of your ideal outcome
+    validations:
+      required: true

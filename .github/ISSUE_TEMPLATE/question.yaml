@@ -1,0 +1,16 @@
+name: Question
+description: Ask a question about Repetitionless
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!IMPORTANT]
+        > Please provide all fields with the required (*) icon
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      placeholder: Provide any additional information and context if possible
+    validations:
+      required: true
