@@ -1,7 +1,7 @@
 # Repetitionless-Issues
 
-[![Asset Store](https://img.shields.io/badge/Asset%20Store-grey?logo=unity)](NOLINKYET)
-[![Itch.io](https://img.shields.io/badge/Itch.io-grey?logo=itchdotio)](NOLINKYET)
+[![Asset Store](https://img.shields.io/badge/Asset%20Store-grey?logo=unity)](https://assetstore.unity.com/packages/slug/345604)
+[![Itch.io](https://img.shields.io/badge/Itch.io-grey?logo=itchdotio)](https://wilschack.itch.io/repetitionless)
 [![Documentation](https://img.shields.io/badge/Documentation-grey?logo=googledocs)](https://docs.wilschack.dev/repetitionless/)
 
 A repo for reporting issues with the Repetitionless Unity Asset
